@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> Conding Ninjas </title>
+
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+
+	<link rel="stylesheet" type="text/css" href="./css/index_responsive.css">
+
+	<!-- Font awesome CDN Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+	<header>
+	<!-- -------------------- Navbar ------------------------->
+		<nav id="navbar">
+
+			<!-- left side nav bar -->
+        	<div id="left-section-tnav">
+            	<div class="nav-logo">
+                	<img src="./assets/mylogo.jpg" alt="">
+        		</div>
+        		<a href="#">My Music App</a>
+      		</div>
+
+      		<!-- left side nav bar -->
+        	<div id="right-section-nav">
+        		<div class="search-box">
+	            	<a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+	                <input class="search-text" type="text" placeholder="Search Anything">
+	                <a href="#" class="search-btn"><i class="fas fa-microphone-alt"></i></a>
+            	</div>
+
+            	<!-- user profile and notificstion bell -->
+        		<div class="nav-user">
+          			<div class="notification-bell">
+            			<i class="fas fa-bell"></i>
+          			</div>
+	          		<div class="user-profile">
+		            	<img src="./assets/singer.jpeg" alt="">
+	          		</div>
+        		</div>
+      		</div>
+
+	    </nav>
+
+	</header>
+
+
+	<main>
+		
+		<!-- --------------- big screen song section ----------------- -->
+		<section id="front-section">
+
+			<!-- song show chart -->
+			<div id="top-container">
+		        <div id="top-image-container">
+		          <img src="./assets/carousel_images/img1.jpg" alt="...">
+		          <img src="./assets/carousel_images/img2.jpg" alt="...">
+		          <img src="./assets/carousel_images/img3.jpg" alt="...">
+		        </div>
+		    </div>
+
+		    <!-- -----------------aside section------------------------ -->
+		   	<div id="aside-section">
+		   		
+		   		<!-- aside head -->
+		   		<div class="headings">
+			   		<div class="left-side-heading">
+			            <h2>Queue</h2>
+			        </div>
+			        <div class="right-side-heading">
+			            <label for="queue">Queue</label><br>
+			            <select id="queue" name="queue">
+			                <option value="1" class="dropdown">
+			                	<i class="fas fa-angle-down"></i>
+			            	</option>
+				            <option value="1">Queue</option>
+				            <option value="2">Playlist</option>
+			            </select>
+			        </div>
+		        </div>
+
+		        <!-- aside section list -->
+		        <div class="aside-list-1">
+		        	
+		        	<div class="aside-list-item">
+
+		        		<div class="num">01</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/kaho-na-kaho.jpg" alt="...">
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>Kaho Na Kaho</h4>
+		        				<p>Javed Imam</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">02</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/abcd.png" alt="...">
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>ABCD</h4>
+		        				<p>Rakesh Aman</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">03</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/bezubaan.jpg" alt="...">
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>Bezubaan</h4>
+		        				<p>Ganesh Acharya</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">04</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/rataan-lambiya.png" alt="...">
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>Rataan Lambiyan</h4>
+		        				<p>Jubin Nautiyal</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">05</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/holi-hai.jpg" alt="...">
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>Balam Pichkari</h4>
+		        				<p>Tony Kakkar</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">06</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/afgan-jalebi.jpg" alt="...">		       
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>Afghaan Jalebi</h4>
+		        				<p>Javed Gani</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">07</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/blue-eyes.png" alt="...">		       
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>Blue Eyes</h4>
+		        				<p>Yo Yo Honey Singh</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">08</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/sun-sathiya.jpg" alt="...">		       
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>Saathiya</h4>
+		        				<p>Prabhudeva</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">08</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/shershaah.jpg" alt="...">		       
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>Kabira</h4>
+		        				<p>Arijit Singh</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">09</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/shershaah.jpg" alt="...">		       
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>Shershaah</h4>
+		        				<p>Elon Musk</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        	<div class="aside-list-item">
+
+		        		<div class="num">10</div>
+
+		        		<div class="aside-list-item-image">
+		        			<img src="./assets/side_bar_images/tu-jane-na.jpg" alt="...">		       
+		        			<div class="play-list-logo"><i class="fas fa-play"></i></div>
+		        		</div>
+
+		        		<div class="song-detail">
+		        			<div class="song-dec">
+		        				<h4>kaise Main Batau</h4>
+		        				<p>Arijit Singh</p>
+		        			</div>
+		        			<div class="list-hrt-logo">
+		        				<i class="fas fa-heart"></i>
+		        			</div>
+		        		</div>
+
+		        	</div>
+
+		        </div>
+		        
+		   	</div>
+
+		   	<!-- --------------------New Releases----------------------- -->
+
+		   	<div id="new-releases">
+		   		
+		   		<h1>New Releases</h1>
+				<!-- big container -->
+				<div id="releases-container">
+
+					<!-- small small single container -->
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/agar-tum-saath-ho.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Tum Saath Ho</h3>
+							<p>Arijit Singh, Alka Yagnik</p>
+						</div>
+					</div>
+
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/chikani-chameli.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Chikani Chameli</h3>
+							<p>payal Dev</p>
+						</div>
+					</div>
+
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/kamali.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Kamali</h3>
+							<p>Sunidhi Chauhan</p>
+						</div>
+					</div>
+
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/meri-jaa.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Pyar Ki Pungi</h3>
+							<p>Pritam Chakraborty, Mika Singh</p>
+						</div>
+					</div>
+
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/pritam-pyare.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Pritam Pyare</h3>
+							<p>Mukti Singh</p>
+						</div>
+					</div>
+
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/raabta.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Raabta</h3>
+							<p>Arijit Singh</p>
+						</div>
+					</div>
+
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/tere-sang.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Tere sang</h3>
+							<p>Arijit Singh</p>
+						</div>
+					</div>
+
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/jmaica.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Jamaica</h3>
+							<p>Emiway Bantai</p>
+						</div>
+					</div>
+
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/Bangle-Ke-Peechee.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Bangle ke Piche</h3>
+							<p>Mika Singh</p>
+						</div>
+					</div>
+
+					<div class="single-releases-container">
+						<!-- image container -->
+						<div class="single-releases-container-image">
+							<img class="image" src="./assets/new-releases-image/majburi.jpg">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<!-- song info -->
+						<div class="song-info">
+							<h3>Majburi</h3>
+							<p>Alka Yagnik</p>
+						</div>
+					</div>
+
+				</div>
+
+		   	</div>
+
+		   	<!-- --------------------Popular Artist--------------------- -->
+
+		   	<div id="artist">
+		   		
+			   	<h2>Pupular Artist</h2>
+				<!-- artist container div -->
+				<div id="artist-container">
+					<!-- single artist container -->
+					<div class="single-artist-container">
+						<div class="container">
+							<img src="./assets/popular artist/jubin-nautiyal.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo">
+									<a href="./playlist.html"><i class="fas fa-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<h3>Jubin Nautiyal</h3>
+					</div>
+
+					<div class="single-artist-container">
+						<div class="container">
+							<img src="./assets/popular artist/sherliye-shetty.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo">
+									<a href="./playlist.html"><i class="fas fa-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<h3>Sheriley hetty</h3>
+					</div>
+
+					<div class="single-artist-container">
+						<div class="container">
+							<img src="./assets/popular artist/shreya.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo">
+									<a href="./playlist.html"><i class="fas fa-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<h3>Tony Kakkar</h3>
+					</div>
+
+					<div class="single-artist-container">
+						<div class="container">
+							<img src="./assets/popular artist/emiway-bantai.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo">
+									<a href="./playlist.html"><i class="fas fa-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<h3>Emiway Bantai</h3>
+					</div>
+
+					<div class="single-artist-container">
+						<div class="container">
+							<img src="./assets/popular artist/arijit-singh.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo">
+									<a href="./playlist.html"><i class="fas fa-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<h3>Arijit Singh</h3>
+					</div>
+
+				</div>
+
+		   	</div>
+
+
+		   	<!-- --------------------- Music Category section------------------ -->
+		   	<div id="catagory">
+
+			   		<div class="catagory-container">
+	      			<!-- head-image -->
+	       			<div class="head-img">
+	          			<img src="./assets/category image/head-image.jpg" class="image" alt="...">
+	        		</div>
+
+		        	<div class="single-catagory">
+		          		<div class="container">
+		            		<a href="#"><img src="./assets/category image/love-songs.jpg" alt="..." class="image catagory-img"></a>
+		            		<div class="middle">
+		              			<div class="text">Love</div>
+		            		</div>
+		          		</div>
+		        	</div>
+
+		        	<div class="single-catagory">
+		          		<div class="container">
+		            		<a href="#"><img src="./assets/category image/chill-song.jpg" alt=".." class="image catagory-img"></a>
+		            		<div class="middle">
+		              			<div class="text">Chill</div>
+		            		</div>
+		          		</div>
+		        	</div>
+
+		        	<div class="single-catagory">
+		          		<div class="container">
+		            		<a href="#"><img src="./assets/category image/retro.jpg" alt="..." class="image catagory-img"></a>
+		            		<div class="middle">
+		              			<div class="text">Retro</div>
+		            		</div>
+		          		</div>
+		        	</div>
+
+		        	<div class="single-catagory">
+		          		<div class="container">
+		            		<a href="#"><img src="./assets/category image/rock.jpg" alt="..." class="image catagory-img"></a>
+		            		<div class="middle">
+		              			<div class="text">rock</div>
+		            		</div>
+		          		</div>
+		        	</div>
+
+		            <div class="single-catagory">
+		          		<div class="container">
+		            		<a href="#"><img src="./assets/category image/workout.jpg" alt="..." class="image catagory-img"></a>
+		            		<div class="middle">
+		              			<div class="text">Workout</div>
+		            		</div>
+		          		</div>
+		        	</div>
+
+		        </div>
+		   		
+		   	</div>
+
+		   	<!-- -----------------Leatest songs Section-------------------- -->
+		   	
+
+		   	<div class="latest-punjabi-songs">
+			   		
+			   	<h2>Latest Punjabi Songs</h2>
+				<div class="latest-punjabi-container">
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-punjabi/Goli.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Goli</h3>
+							<p>Gur Sidhu</p>
+						</div>
+					</div>
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-punjabi/Jaan.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Jaan</h3>
+							<p>Nirmat khaira</p>
+						</div>
+					</div>
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-punjabi/Addi-Sunni.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Addi Sunni</h3>
+							<p>Priyanka Pal</p>
+						</div>
+					</div>
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-punjabi/swag.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Suitan Da Swag</h3>
+							<p>Tarsem Jassar</p>
+						</div>
+					</div>
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-punjabi/shining.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Shining Koka</h3>
+							<p>Dilpreet Dhillon</p>
+						</div>
+					</div>
+
+					</div>
+				</div>
+
+		   	</div>
+
+
+		   	<!-- ----------------- Leatest songs Section 2 -------------------- -->
+		   	<div class="latest-punjabi-songs">
+		   		
+			   	<h2>Latest English Songs</h2>
+				<div class="latest-punjabi-container">
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-english/industry-baby.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Industry Baby</h3>
+							<p>Jack Harlow</p>
+						</div>
+					</div>
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-english/need-to-know.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Need To Know</h3>
+							<p>Doja cat</p>
+						</div>
+					</div>
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-english/memories.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Memories</h3>
+							<p>Maroom 5</p>
+						</div>
+					</div>
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-english/mood.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Mood(Remix)</h3>
+							<p>Justin Bieber</p>
+						</div>
+					</div>
+
+					<div class="single-punjabi-container">
+						<div class="punjabi-container">
+							<img src="./assets/latest-english/say-so.jpg" class="image">
+							<div class="middle">
+								<div class="play-logo"><i class="fas fa-play"></i></div>
+							</div>
+						</div>
+
+						<div class="song-info">
+							<h3>Say So</h3>
+							<p>Doja Cat</p>
+						</div>
+					</div>
+
+				</div>
+
+		   	</div>
+
+
+		</section>
+		
+		
+
+		<!-- -------------------------footer section----------------------- -->
+
+		<footer>
+			<div class="ongoing-song-des">
+				<!-- song image -->
+				<div id="song-image">
+					<img src="./assets/side_bar_images/holi-hai.jpg">
+				</div>
+				<!-- ṣong details -->
+				<div class="song-details">
+					<div>Chikni Chameli</div>
+					<div>Payal Dev</div>
+				</div>
+
+				<!-- heart icon and ban icon -->
+				<div class="heart-ban">
+					<span><i class="far fa-heart"></i></span>
+					<span><i class="fas fa-ban"></i></span>
+				</div>
+
+			</div>
+
+			<!-- controls -->
+			<div class="player">
+				<div class="controls">
+			        <div><i class="fas fa-random"></i></div>
+			        <div><i class="fas fa-step-backward"></i></div>
+			        <div><i class="fas fa-pause-circle"></i></div>
+			        <div><i class="fas fa-step-forward"></i></div>
+			        <div><i class="fas fa-redo"></i></div>
+			    </div>
+
+			    <!-- slider -->
+			    <div id="slider">
+			    	<!-- starting time -->
+			    	<div class="time">00:00</div>
+			    	<!-- slider bar -->
+			    	<div class="slider-container">
+			    		<input type="range" min="0" max="100" class="slider" id="myrange">
+			    	</div>
+			    	<!-- end time -->
+			    	<div class="time">03:23</div>
+			    </div>
+			</div>
+
+			    <!-- left side all important icons for sizing etc. -->
+		    <div class="useful">
+		    	<div>
+    				<i class="fas fa-list-ul"></i>
+  				</div>
+  				<div>
+    				<i class="fas fa-laptop"></i>
+  				</div>
+ 		 		<div>
+    				<i class="fas fa-volume-up"></i>
+  				</div>
+  				<div class="slidecontainer">
+    				<input type="range" min="0" max="100" class="slider" id="myrange">
+  				</div>
+  				<div class="expand-size">
+  	  				<i class="fas fa-expand-alt"></i>
+  				</div> 
+		    	
+		    </div>
+
+		</footer>
+
+
+	</main>
+
+
+</body>
+</html>

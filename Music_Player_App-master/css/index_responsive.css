@@ -1,0 +1,493 @@
+/*----------------------------MEDIA QUERIES--------------------------------*/
+
+
+/*when screen width is <=1310*/
+@media only screen and (max-width: 1310px) {
+
+	/*---big images topcontainer---*/
+	#top-container{
+		width: 100%;
+		height: auto;
+		margin-left: 4rem;
+		margin-top: 2rem;
+	}
+
+	#top-image-container{
+		height: 40vh;
+		width: 100%;
+		display: flex;
+	}
+
+	#top-image-container img{
+		margin-left: 5px;
+		margin-right: 10px;
+	}
+
+	/*-----aside-section-----*/
+	#aside-section{
+		display: none;
+	}
+
+	/*-----new releases section-----*/
+	#new-releases{
+		margin-top: 10vh;
+		width: 87%;
+	}
+
+	/*-----popular artist section-----*/
+	#artist{
+		width: 90%;
+		height: auto;
+		margin-left: 4rem;
+		margin-top: 2rem;
+	}
+
+	/*-----category music-----*/
+	#catagory{
+		width: 90%;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		margin-left: 4rem;
+	}
+
+	.head-img{
+		display: none;
+	}
+
+	.single-catagory{
+		margin-top: 25px;
+		height: 13vh;
+		width: 13vh;
+		flex-wrap: wrap;
+	}
+
+	/*-----latest songs section-----*/
+	.latest-punjabi-songs{
+		width: 90%;
+		color: white;
+		font-family: sans-serif;
+		margin-top: 2rem;
+		margin-left: 4rem;
+	}
+
+	/*-----footer section-----*/
+	.ongoing-song-des{
+		height: 90%;
+		width: 35%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.slidecontainer, .expand-size{
+		display: none;
+	}
+
+}
+
+/*when screen width is <=1280*/
+@media only screen and (max-width: 1280px) {
+
+	/*---big images topcontainer---*/
+	#top-container{
+		width: 100%;
+		height: auto;
+		margin-left: 3rem;
+		margin-top: 2rem;
+	}
+
+	#top-image-container{
+		height: 35vh;
+		width: 100%;
+		display: flex;
+	}
+
+	#top-image-container img{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	/*-----aside-section-----*/
+	#aside-section{
+		display: none;
+	}
+
+	/*-----new releases-----*/
+	#new-releases{
+		margin-top: 9vh;
+		width: 90%;
+	}
+
+	/*-----popular artist section-----*/
+	#artist{
+		width: 90%;
+		height: auto;
+		margin-left: 3rem;
+		margin-top: 2rem;
+	}
+
+	/*-----category music-----*/
+	#catagory{
+		width: 90%;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		margin-left: 3rem;
+	}
+
+	.head-img{
+		display: none;
+	}
+
+	.single-catagory{
+		margin-top: 20px;
+		height: 14vh;
+		width: 14vh;
+		flex-wrap: wrap;
+	}
+
+	/*-----latest songs section-----*/
+	.latest-punjabi-songs{
+		width: 90%;
+		color: white;
+		font-family: sans-serif;
+		margin-top: 2rem;
+		margin-left: 3rem;
+	}
+
+	/*-----footer section-----*/
+	.ongoing-song-des{
+		height: 90%;
+		width: 30%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.slidecontainer{
+		display: none;
+	}
+
+}
+
+
+
+/*when screen width is <= 1024*/
+@media only screen and (max-width: 1024px) {
+
+	/*---big images topcontainer---*/
+	#top-container{
+		width: 100%;
+		height: auto;
+		margin-left: 3rem;
+		margin-top: 2rem;
+	}
+
+	#top-image-container{
+		height: 29vh;
+		width: 100%;
+		display: flex;
+	}
+
+	#top-image-container img{
+		margin-left: 5px;
+		margin-right: 10px;
+	}
+
+	/*-----aside-section-----*/
+	#aside-section{
+		display: none;
+	}
+
+	/*-----new releases-----*/
+	#new-releases{
+		margin-top: 9vh;
+		width: 90%;
+	}
+
+	/*-----popular artist section-----*/
+	#artist{
+		width: 90%;
+		height: auto;
+		margin-left: 3rem;
+		margin-top: 2rem;
+	}
+
+	/*-----category music-----*/
+	#catagory{
+		width: 90%;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		margin-left: 3rem;
+	}
+
+	.head-img{
+		display: none;
+	}
+
+	.single-catagory{
+		margin-top: 20px;
+		height: 14vh;
+		width: 14vh;
+		flex-wrap: wrap;
+	}
+
+	/*-----latest songs section-----*/
+	.latest-punjabi-songs{
+		width: 90%;
+		color: white;
+		font-family: sans-serif;
+		margin-top: 2rem;
+		margin-left: 3rem;
+	}
+
+	/*-----footer section-----*/
+	.ongoing-song-des{
+		height: 90%;
+		width: 30%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.slidecontainer{
+		display: none;
+	}
+
+}
+
+
+
+/*when screen width is <= 767*/
+@media only screen and (max-width: 767px) {
+
+	/*---big images topcontainer---*/
+	#top-container{
+		width: 100%;
+		height: auto;
+		margin-left: 2rem;
+		margin-top: 2rem;
+	}
+
+	#top-image-container{
+		height: 20vh;
+		width: 100%;
+		display: flex;
+	}
+
+	#top-image-container img{
+		margin-left: 5px;
+		margin-right: 10px;
+	}
+
+	/*-----aside-section-----*/
+	#aside-section{
+		display: none;
+	}
+
+	/*-----new releases-----*/
+	#new-releases{
+		margin-top: 7vh;
+		width: 90%;
+	}
+
+	/*-----popular artist section-----*/
+	#artist{
+		width: 90%;
+		height: auto;
+		margin-left: 2rem;
+		margin-top: 2rem;
+	}
+
+	/*-----category music-----*/
+	#catagory{
+		width: 90%;
+		margin-top: 4rem;
+		margin-bottom: 1rem;
+		margin-left: 2rem;
+	}
+
+	.head-img{
+		display: none;
+	}
+
+	.single-catagory{
+		margin-top: 25px;
+		height: 12vh;
+		width: 12vh;
+		flex-wrap: wrap;
+	}
+
+	/*-----latest songs section-----*/
+	.latest-punjabi-songs{
+		width: 90%;
+		color: white;
+		font-family: sans-serif;
+		margin-top: 2rem;
+		margin-left: 2rem;
+	}
+
+	/*-----footer section-----*/
+	.ongoing-song-des{
+		height: 90%;
+		width: 30%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.useful{
+		display: none;
+	}
+
+	.player{
+		width: 60%;
+	}
+
+	.ongoing-song-des{
+		width: 40%;
+	}
+
+}
+
+
+
+/*when screen width is <= 480*/
+@media only screen and (max-width: 480px) {
+
+	/*-----navbar-----*/
+	#navbar{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.nav-logo img {
+	    height: 35px;
+	    width: auto;
+	    margin-top: 1rem;
+	  }
+
+    .user-profile img{
+  		height: 35px;
+  		width: auto;
+  		margin-top: 1rem;
+  	}
+
+    #left-section-tnav{
+  		width: 25%;
+  	}
+
+  	#left-section-tnav a{
+  		display: none;
+  	}
+
+  	#right-section-nav{
+  		width: 75%;
+  		display: flex;
+  		justify-content: space-between;
+  	}
+
+  	.search-box a i, input{
+  		height: 15px;
+  		width: auto;
+  	}
+
+	/*---big images topcontainer---*/
+	#top-container{
+		width: 100%;
+		height: auto;
+		margin-left:1rem;
+		margin-top: 2rem;
+	}
+
+	#top-image-container{
+		height: 12vh;
+		width: 100%;
+		display: flex;
+	}
+
+	#top-image-container img{
+		margin-left: 4px;
+		margin-right: 8px;
+	}
+
+	/*-----aside-section-----*/
+	#aside-section{
+		display: none;
+	}
+
+	/*-----new releases-----*/
+	#new-releases{
+		margin-top: 4vh;
+		width: 90%;
+	}
+
+	/*-----popular artist section-----*/
+	#artist{
+		width: 90%;
+		height: auto;
+		margin-left: 1rem;
+		margin-top: 2rem;
+	}
+
+	/*-----category music-----*/
+	#catagory{
+		width: 90%;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+		margin-left: 1rem;
+	}
+
+	.head-img{
+		display: none;
+	}
+
+	.single-catagory{
+		margin-top: 35px;
+		height: 8vh;
+		width: 8vh;
+		flex-wrap: wrap;
+	}
+
+	.single-catagory:hover{
+		transform: scale(0.7) translate(10px);
+		cursor: pointer;
+	}
+
+	/*-----latest songs section-----*/
+	.latest-punjabi-songs{
+		width: 90%;
+		color: white;
+		font-family: sans-serif;
+		margin-top: 2rem;
+		margin-left: 1rem;
+	}
+
+	/*-----footer section-----*/
+	.ongoing-song-des{
+		height: 90%;
+		width: 27%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.slidecontainer, .useful{
+		display: none;
+	}
+
+	.player{
+		display: none;
+	}
+
+	.ongoing-song-des{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+}

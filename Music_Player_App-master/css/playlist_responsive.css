@@ -1,0 +1,439 @@
+/*-------------------------------------MEDIA QUERIES---------------------------------------*/
+
+/*---when width is <= 1280px---*/
+@media only screen and (max-width: 1280px){
+
+	/*--- artist info ---*/
+	.singer-image{
+		margin-top: 25px;
+		width: 30vh;
+		height: 30vh;
+	}
+
+	.singer-info{
+		width: 70%;
+	}
+
+	.core-info p{
+		font-size: 13px;
+		line-height: 1.2;
+	}
+
+	.btns button{
+		height: 30px;
+		width: 100px;
+		font-size: 0.8rem;
+		font-weight: 300;
+	}
+
+	.singer-info h3{
+		font-weight: 300;
+		margin-top: 1rem;
+		font-size: 16px;
+	}
+
+	.singer-info h2{
+		font-size: 19px;
+	}
+
+	/*--- scrollbar1 ---*/
+	.list-img {
+		height: 90px;
+		width: 90px;
+		margin-top: 5px;
+	}
+
+	/*--- scrollbar2 ---*/
+	.recent-dec{
+		margin-left: 20px;
+	}
+
+	/*--- footer section ---*/
+	.slidecontainer, .expand-alt{
+		display: none;
+	}
+	
+}
+
+
+/*---when width is <= 1024px---*/
+@media only screen and (max-width: 1024px){
+
+	.main-div {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/*--- artist info ---*/
+	#artist-bit-info{
+		width: 90%;
+		height: 40vh;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.singer-image{
+		margin-top: 10px;
+		width: 35vh;
+		height: 35vh;
+	}
+
+	.singer-info{
+		margin-left: 15px;
+	}
+
+	.singer-info p{
+		font-size: 13px;
+		line-height: 1.4;
+	}
+
+	.btns button{
+		height: 40px;
+		width: 120px;
+	}
+
+	/*--- scrollbar1 ---*/
+	#similar-artist-container{
+		margin-top: 2rem;
+		width: 80%;
+	}
+
+	/*--- playlist ---*/
+	#playlist-complete{
+		width: 90%;
+	}
+
+	/*--- recent-played ---*/
+	.heading{
+		justify-content: space-between;
+	}
+
+	#recent-played{
+		width: 80%;
+	}
+
+	.recent-dec{
+		margin-left: 20px;
+	}
+
+	.recent-logo{
+		top: 35%;
+		left: 20%;
+	}
+
+
+	/*--- footer section ---*/
+	.slidecontainer, .expand-alt{
+		display: none;
+	}
+
+	
+}
+
+
+/*---when width is <= 767px---*/
+@media only screen and (max-width: 767px){
+
+	/*--- navbar ---*/
+	.user-profile{
+		width: 45px;
+		height: 45px;
+		margin-top: 0.3rem;
+	}
+
+	.nav-logo {
+		margin-top: 0.5rem;
+	    height: 70px;
+	    width: 50px;
+	}
+
+	.search-box {
+	    width: 300px;
+	    height: 30px;
+	    border-radius: 22px;
+	}
+
+	#right-section-nav {
+	    width: 65%;
+	}
+
+	#left-section-tnav a{
+		display: none;
+	}
+		
+	/*--- artist info ---*/
+	#artist-bit-info{
+		width: 90%;
+		height: 40vh;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.singer-image{
+		margin-top: 10px;
+		width: 32vh;
+		height: 32vh;
+	}
+
+	.singer-info{
+		margin-left: 15px;
+	}
+
+	.singer-info h3{
+		margin-top: 5px;
+	}
+
+	.core-info{
+		width: 100%;
+	}
+
+	.singer-info p{
+		font-size: 12px;
+		line-height: 1.2;
+		margin-top: 5px;
+	}
+
+	.btns{
+		margin-top: 6px;
+	}
+
+	.btns button{
+		height: 30px;
+		width: 100px;
+	}
+
+	.btns button{
+		height: 270px;
+		width: 80px;
+	}
+
+	.tracks{
+		margin-top: 7px;
+	}
+
+	/*--- playlist ---*/
+	#playlist-complete{
+		width: 90%;
+	}
+
+	.playlist-item{
+		flex-wrap: nowrap;
+	}
+
+	.playlist-image{
+		margin-top: 12px;
+		width: 50px;
+		height: 50px;
+		position: relative;
+	}
+
+	.p-logo{
+		position: absolute;
+		top: 40%;
+		left: 40%;
+		opacity: 0;
+	}
+
+	.content-div{
+		width: 83%;
+	}
+
+	.song-dec{
+		width: 64%;
+		margin-left: 2%;
+	}
+
+	.song-dec h4{
+		font-size: 13px;
+	}
+
+	.song-dec p{
+		font-size: 10px;
+	}
+
+	.playlist-image {
+	    margin-left: 3px;
+	}
+
+	.time{
+		font-size: 10px;
+	}
+
+	.logos{
+		width: 20%;
+	}
+
+	.logos div{
+		width: 20px;
+	}
+
+	/*--- recent plays ---*/
+	.recent-logo{
+		top: 35%;
+		left: 25%;
+	}
+
+	/*--- footer ---*/
+	.useful{
+		display: none;
+	}
+
+	.song-details{
+		margin-left: 8px;
+	}
+
+	.heart-ban{
+		margin-left: 5px;
+	}
+
+	.ongoing-song-des{
+		width: auto;
+	}
+
+	.controls{
+		width: 80%;
+	}
+
+	.player{
+		width: 50%;
+	}
+
+}
+
+
+/*---when width is <= 480px---*/
+@media only screen and (max-width: 480px){
+
+	/*--- artist information---*/
+
+	#artist-bit-info{
+		width: 95%;
+		height: 35vh;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.singer-image{
+		width: 12vh;
+		height: 12vh;
+		margin-top: 0px;
+	}
+
+	.singer-image img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.singer-info{
+		width: 95%;
+		margin-left: 5px;
+		margin-top: -6rem;
+	}
+
+	.singer-info h3{
+		width: 95%;
+		text-align: right;
+		font-weight: 300;
+		font-size: 15px;
+		display: flex;
+		justify-content: flex-end;
+		width: 150px;
+		margin-left: 80px;
+	}
+
+
+	.core-info p{
+		font-size: 11px;
+		margin-top: 5px;
+		line-height: 1.2;
+	}
+
+	.core-info h2{
+		font-size: 15px;
+		text-align: right;
+		margin-right: 20px;
+		display: flex;
+		justify-content: flex-end;
+		width: 150px;
+		margin-left: 80px;
+	}
+
+	.btns{
+		margin-top: 5px;
+	}
+
+	.btns button{
+		height: 30px;
+		width: 90px;
+	}
+
+	.tracks{
+		margin-top: 3px;
+		font-size: 12px;
+	}
+
+	/*--- scrollbar1 ---*/
+	#similar-artist-container h2 {
+	    font-size: 1rem;
+	}
+
+	#similar-artist-container p{
+		font-size: 0.8rem;
+	}
+
+	.list-content h4{
+		font-size: 15px;
+	}
+
+	.list-content p{
+		font-size: 12px;
+	}
+
+	/*--- scrollbar2 ---*/
+	.recent-list-img{
+		width: 50px;
+		height: 50px;
+	}
+
+	.recent-logo{
+		position: absolute;
+		top: 60%;
+		left: 60%;
+		opacity: 0;
+	}
+
+	.r-heading h2{
+		font-size: 1rem;
+	}
+
+	.r-heading p{
+		font-size: 0.8rem;
+	}
+
+	.recent-list-item {
+	    flex-wrap: nowrap;
+	}
+
+	.recent-content{
+		margin-left: 20px;
+	}
+	
+	.recent-dec h4{
+		font-size: 15px;
+	}
+
+	.recent-dec p{
+		font-size: 12px;
+	}
+
+	/*--- footer ---*/
+	.player{
+		display: none;
+	}
+
+	.ongoing-song-des{
+		width: 90%;
+		justify-content: space-between;
+	}
+
+}

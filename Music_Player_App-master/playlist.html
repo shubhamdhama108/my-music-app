@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+
+    <!-- it is connected to two stylesheets -->
+    <link rel="stylesheet" type="text/css" href="./css/playlist.css"><!-- this is the main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./css/playlist_responsive.css">
+
+    <!-- desktop first approach is used for the same. -->
+    <link rel="stylesheet" type="text/css" href="./css/Playlistresponsive.css">
+
+    <!-- this script is just for font awesome fonts -->
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <header>
+    <!-- ------------------------------------------navbar---------------------------------------- -->
+
+        <nav id="navbar">
+
+            <!-- left side nav bar -->
+            <div id="left-section-tnav">
+                <div class="nav-logo">
+                    <img src="./assets/mylogo.jpg" alt="">
+                </div>
+                <a href="#">My Music App</a>
+            </div>
+
+            <!-- left side nav bar -->
+            <div id="right-section-nav">
+                <div class="search-box">
+                    <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+                    <input class="search-text" type="text" placeholder="Search Anything">
+                    <a href="#" class="search-btn"><i class="fas fa-microphone-alt"></i></a>
+                </div>
+
+                <!-- user profile and notificstion bell -->
+                <div class="nav-user">
+                    <div class="notification-bell">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <div class="user-profile">
+                        <img src="./assets/singer.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="main-div">
+
+            <!-- -----------------------------Artist Information Container------------------------- -->
+            <div id="artist-bit-info">
+
+                <!-- singers image div -->
+                <div class="singer-image">
+                    <img src="./assets/arijit.jpg">
+                </div>
+
+                <!-- singers description div -->
+                <div class="singer-info">
+                    <h3>18m Followers</h3>
+
+                    <div class="core-info">
+                        <h2>Arijit Singh</h2>
+                        <p style="font-size: 14px;">Artist : 12,345,887 Listners</p>
+
+                        <p>Arijit Singh is an Indian singer and music composer. He sings predominantly in Hindi, but has also performed in various other Indian languages. He is the recipient of a National Award and arecord six Filmfare Awards.He is also known as "King of playback singing"
+                        </p>
+                    </div>
+
+                    <div class="btns">
+                        <button class="play-song">Play All</button>
+                        <button class="follow">Follow</button>
+                    </div>
+
+                    <div class="tracks">
+                        190 Tracks | 128 Albums
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- ----------------------------scrollable aside section--------------------------- -->
+
+
+            <aside id="similar-artist-container">
+                <!-- heading -->
+                <div class="heading">
+                    <h2>Similar Artists</h2>
+                    <p>View All</p>
+                </div>
+
+                <!-- scrolling list -->
+                <div class="list">
+                    <!-- list item -->
+                    <div class="list-item">
+
+                        <!-- list image div -->
+                        <div class="list-img">
+                            <img src="./assets/popular artist/emiway-bantai.jpg">
+
+                            <div class="play-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <!-- list content div -->
+                        <div class="list-content-container">
+                            <div class="list-content">
+                                <h4>Freeverse Feat 2</h4>
+                                <p>Emiway Bantai</p>
+                            </div>
+
+                            <!-- list logo div -->
+                            <div class="last">
+                                <div class="dot-logo"><i class="fas fa-ellipsis-h"></i></div>
+                                <div><p style="font-size: 12px;">2:00</p></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="list-item">
+
+                        <!-- list image div -->
+                        <div class="list-img">
+                            <img src="./assets/popular artist/jubin-nautiyal.jpg">
+
+                            <div class="play-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <!-- list content div -->
+                        <div class="list-content-container">
+                            <div class="list-content">
+                                <h4>Ek Din</h4>
+                                <p>Jubin nautiyal</p>
+                            </div>
+
+                            <!-- list logo div -->
+                            <div class="last">
+                                <div class="dot-logo"><i class="fas fa-ellipsis-h"></i></div>
+                                <div><p style="font-size: 12px;">2:00</p></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="list-item">
+
+                        <!-- list image div -->
+                        <div class="list-img">
+                            <img src="./assets/popular artist/sherliye-shetty.jpg">
+
+                            <div class="play-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <!-- list content div -->
+                        <div class="list-content-container">
+                            <div class="list-content">
+                                <h4>Naiyo Jana</h4>
+                                <p>shirley Setia</p>
+                            </div>
+
+                            <!-- list logo div -->
+                            <div class="last">
+                                <div class="dot-logo"><i class="fas fa-ellipsis-h"></i></div>
+                                <div><p style="font-size: 12px;">2:00</p></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="list-item">
+
+                        <!-- list image div -->
+                        <div class="list-img">
+                            <img src="./assets/popular artist/shreya.jpg">
+
+                            <div class="play-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <!-- list content div -->
+                        <div class="list-content-container">
+                            <div class="list-content">
+                                <h4>Dil Tu Hi Bata</h4>
+                                <p>shreya Ghosal</p>
+                            </div>
+
+                            <!-- list logo div -->
+                            <div class="last">
+                                <div class="dot-logo"><i class="fas fa-ellipsis-h"></i></div>
+                                <div><p style="font-size: 12px;">2:00</p></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="list-item">
+
+                        <!-- list image div -->
+                        <div class="list-img">
+                            <img src="./assets/popular artist/arijit-singh.jpg">
+
+                            <div class="play-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <!-- list content div -->
+                        <div class="list-content-container">
+                            <div class="list-content">
+                                <h4>Rabata</h4>
+                                <p>Arijit Singh</p>
+                            </div>
+
+                            <!-- list logo div -->
+                            <div class="last">
+                                <div class="dot-logo"><i class="fas fa-ellipsis-h"></i></div>
+                                <div><p style="font-size: 12px;">2:00</p></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                
+            </aside>
+
+            <!-- ---------------------------playlist----------------------------- -->
+
+            <div id="playlist-complete">
+
+                <!-- playlist Item -->
+                <div class="playlist-item">
+                    <div class="num">01</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/latest-punjabi/jaan.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Chahane Lage Hum</h4>
+                            <p>Jubin Nautiyal</p>
+                        </div>
+
+                        <div class="time">3:14</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">02</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song3.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Yaariya</h4>
+                            <p>Javed Gani</p>
+                        </div>
+
+                        <div class="time">3:00</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">03</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song2.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Safar</h4>
+                            <p>Arijit Singh</p>
+                        </div>
+
+                        <div class="time">4:00</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">04</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song1.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Blue Eyes</h4>
+                            <p>Yo Yo Honey Singh</p>
+                        </div>
+
+                        <div class="time">3:25</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">05</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song3.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Hookah Baar</h4>
+                            <p>Yo Yo Honey Singh</p>
+                        </div>
+
+                        <div class="time">4:06</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">06</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song1.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Titliyan</h4>
+                            <p>Hardy Sandhu</p>
+                        </div>
+
+                        <div class="time">3:04</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">07</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song2.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Ae Dil Hai Muskil</h4>
+                            <p>A R Raheman</p>
+                        </div>
+
+                        <div class="time">4:14</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">08</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song1.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Jannat</h4>
+                            <p>Imran Hashmi</p>
+                        </div>
+
+                        <div class="time">4:13</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">09</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song3.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Teesri Manjil</h4>
+                            <p>Devine</p>
+                        </div>
+
+                        <div class="time">3:48</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">10</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song2.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Yaar Naiyo Milna</h4>
+                            <p>Hardy Sandhu</p>
+                        </div>
+
+                        <div class="time">4:08</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="playlist-item">
+                    <div class="num">11</div>
+
+                    <!-- image div -->
+                    <div class="playlist-image">
+                        <img src="./assets/playlist-section/song3.jpg">
+                        <div class="p-logo"><i class="fas fa-play"></i></div>
+                    </div>
+
+                    <div class="content-div">
+                        <div class="song-dec">
+                            <h4>Sakhiyaa</h4>
+                            <p>Manindar Buttar</p>
+                        </div>
+
+                        <div class="time">4:00</div>
+
+                        <div class="logos">
+                            <div><i class="fas fa-heart"></i></div>
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <!-- --------------------------2nd scrollable aside section------------------------ -->
+
+            <aside id="recent-played">
+                <!-- heading of recent play -->
+                <div class="r-heading">
+                    <h2>Recently Played</h2>
+                    <p>View All</p>
+                </div>
+
+                <!-- list of recent play -->
+                <div class="recent-list">
+
+                    <div class="recent-list-item">
+                        <div class="number">01</div>
+
+                        <div class="recent-list-img">
+                            <img src="./assets/new-releases-image/kamali.jpg">
+                            <div class="recent-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <div class="recent-content">
+                            <div class="recent-dec">
+                                <h4>Love Me</h4>
+                                <p>Love</p>
+                            </div>
+
+                            <div class="recent-heart">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-list-item">
+                        <div class="number">02</div>
+
+                        <div class="recent-list-img">
+                            <img src="./assets/new-releases-image/agar-tum-saath-ho.jpg">
+                            <div class="recent-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <div class="recent-content">
+                            <div class="recent-dec">
+                                <h4>Agar Tum Saath Ho</h4>
+                                <p>Arijit Singh</p>
+                            </div>
+
+                            <div class="recent-heart">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-list-item">
+                        <div class="number">03</div>
+
+                        <div class="recent-list-img">
+                            <img src="./assets/new-releases-image/pritam-pyare.jpg">
+                            <div class="recent-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <div class="recent-content">
+                            <div class="recent-dec">
+                                <h4>Aa Re Pritam Pyare</h4>
+                                <p>Mukti Mohan</p>
+                            </div>
+
+                            <div class="recent-heart">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-list-item">
+                        <div class="number">04</div>
+
+                        <div class="recent-list-img">
+                            <img src="./assets/new-releases-image/jmaica.jpg">
+                            <div class="recent-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <div class="recent-content">
+                            <div class="recent-dec">
+                                <h4>Jamaica</h4>
+                                <p>Emiway Bantai, Chris Gayle</p>
+                            </div>
+
+                            <div class="recent-heart">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-list-item">
+                        <div class="number">05</div>
+
+                        <div class="recent-list-img">
+                            <img src="./assets/new-releases-image/meri-jaa.jpg">
+                            <div class="recent-logo"><i class="fas fa-play"></i></div>
+                        </div>
+
+                        <div class="recent-content">
+                            <div class="recent-dec">
+                                <h4>Smooch</h4>
+                                <p>Robin Utappa</p>
+                            </div>
+
+                            <div class="recent-heart">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </aside> 
+
+            <!-- ----------------------footer Section------------------------- -->
+           <footer>
+                <div class="ongoing-song-des">
+                    <!-- song image -->
+                    <div id="song-image">
+                        <img src="./assets/side_bar_images/holi-hai.jpg">
+                    </div>
+                    <!-- ṣong details -->
+                    <div class="song-details">
+                        <div>Hookah Bar</div>
+                        <div>Yo Yo Honey Singh</div>
+                    </div>
+
+                    <!-- heart icon and ban icon -->
+                    <div class="heart-ban">
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-ban"></i></span>
+                    </div>
+
+                </div>
+
+                <!-- controls -->
+                <div class="player">
+                    <div class="controls">
+                        <div><i class="fas fa-random"></i></div>
+                        <div><i class="fas fa-step-backward"></i></div>
+                        <div><i class="fas fa-pause-circle"></i></div>
+                        <div><i class="fas fa-step-forward"></i></div>
+                        <div><i class="fas fa-redo"></i></div>
+                    </div>
+
+                    <!-- slider -->
+                    <div id="slider">
+                        <!-- starting time -->
+                        <div class="start">00:00</div>
+                        <!-- slider bar -->
+                        <div class="slider-container">
+                            <input type="range" min="0" max="100" class="slider" id="myrange">
+                        </div>
+                        <!-- end time -->
+                        <div class="start">03:23</div>
+                    </div>
+                </div>
+
+                <!-- left side all important icons for sizing etc. -->
+                <div class="useful">
+                    <div>
+                        <i class="fas fa-list-ul"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="100" value="0" class="slider" id="myrange">
+                    </div>
+                    <div class="expand-alt">
+                        <i class="fas fa-expand-alt"></i>
+                    </div> 
+                    
+                </div>
+
+            </footer>
+
+        </div>
+
+    </main>
+
+
+</body>
+</html>

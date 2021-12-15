@@ -1,0 +1,706 @@
+body{
+	margin: 0px;
+	/*background-color: hsl(231deg 53% 10%);*/
+	background-color: black;
+}
+
+/*  ------------------------------ navbar start ------------------------------------ */
+
+#navbar {
+	height: 12vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*position: absolute;*/
+	position: fixed;
+	top: 0;
+	margin-top: 0px;
+	width: 100%;
+	background-color: hsl(231deg 53% 10%);
+	z-index: 7;
+}
+
+#left-section-tnav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 30%;
+	height: 12vh;
+}
+
+.nav-logo {
+	height: 60px;
+	width: 60px;
+}
+
+.nav-logo img {
+	margin-top: 10px;
+	border-radius: 10px;
+	height: 80%;
+	width: 100%;
+}
+
+#left-section-tnav a {
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-decoration: none;
+	padding-top: 1.2rem;
+}
+
+/* ---Rigntnav--- */
+#right-section-nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 50%;
+	height: 12vh;
+}
+
+/* ---Search Box--- */
+.search-box {
+	width: 300px;
+	height: 40px;
+	border-radius: 25px;
+	background-color: #121a3f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	cursor: pointer;
+	text-decoration: none;
+	margin-top: 1rem;
+}
+
+.search-text {
+	width: 80%;
+	background-color: #121a3f;
+	border: none;
+}
+
+.search-btn {
+  color: #808080;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* ---Nav User--- */
+.nav-user {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.notification-bell i {
+	color: white;
+	font-size: 20px;
+	margin-right: 20px;
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.user-profile {
+	height: 20px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.user-profile img {
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+/* --------------------navbar end---------------------------*/
+
+
+/* -------------------carousel type----------------------  */
+
+main{
+	/*border: 1px solid white;*/
+	margin-top: 14vh;
+}
+
+#front-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+}
+
+#top-container {
+	width: 68%;
+	margin-left: 2rem;
+	margin-top: 3rem;
+}
+
+#top-image-container {
+	height: 40vh;
+	display: flex;
+}
+
+#top-image-container img {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#top-image-container :hover {
+	transform: scale(1.1) translate(10px);
+	cursor: pointer;
+}
+
+#top-image-container img:hover {
+    cursor: pointer;
+}
+/*----carousel type end---*/
+
+
+/* ----------------------- aside section ------------------------- */
+
+
+/* aside head */
+#aside-section {
+  width: 26%;
+}
+
+.headings{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-side-heading {
+	color: white;
+}
+
+.right-side-heading {
+	color: aqua;
+	margin-top: 22px;
+	margin-left: 10rem;
+	font-size: 20px;
+}
+
+#queue {
+	background-color: hsl(231deg 53% 10%);
+	color: aqua;
+	border: none;
+	font-family: sans-serif;
+}
+
+/*list*/
+.aside-list-1{
+	width: 100%;
+	color: white;
+	margin-top: 2rem;
+	font-family: sans-serif;
+}
+
+.aside-list-item{
+	height: 80px;
+	display: flex;
+	margin-top: 7px;
+	cursor: pointer;
+}
+
+.num{
+	width: 9%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.aside-list-item-image{
+	width: 22%;
+	height: 80px;
+	position: relative;
+}
+
+.aside-list-item-image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
+
+.play-list-logo{
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	opacity: 0;
+}
+
+.song-detail{
+	display: flex;
+	width: 69%;
+	justify-content: space-between;
+}
+
+.song-dec{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-left: 10px;
+}
+
+.song-dec h4, p{
+	margin: 0px;
+}
+
+.song-dec h4{
+	font-size: 15px;
+}
+
+.song-dec p{
+	font-size: 12px;
+	font-weight: 100;
+}
+
+.list-hrt-logo{
+	display: flex;
+	width: 35px;
+	justify-content: center;
+	align-items: center;
+}
+
+/* hovering actions */
+.aside-list-item-image:hover{
+	opacity: 0.8;
+}
+
+.aside-list-item-image:hover .play-list-logo{
+	opacity: 1;
+}
+
+
+
+.list-hrt-logo i:hover{
+	color: red;
+}
+
+
+/* ----------------------- aside section end ------------------------- */
+
+
+
+
+/* ---------------------------------New Releases------------------------------ */
+
+#new-releases {
+	width: 65%;
+	margin-top: -87vh;
+	color: white;
+	margin-left: 3rem;
+	font-family: sans-serif;
+}
+
+#releases-container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.single-releases-container{
+	height: 13rem;
+	width: 10rem;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.single-releases-container-image img {
+	width: 100%;
+	height: 160px;
+	border-radius: 8px;
+}
+
+.single-releases-container-image img:hover {
+	cursor: pointer;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.song-info {
+	height: 5rem;
+	width: 10rem;
+	text-align: center;
+	margin-top: -10px;
+}
+
+.song-info h3 {
+	font-size: 15px;
+}
+
+.song-info p {
+	color: lightgray;
+	font-size: 10px;
+	margin-top: -10px;
+}
+
+.single-releases-container-image{
+	position: relative;
+}
+
+.image{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+}
+
+.middle {
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 48%;
+	left: 48%;
+	text-align: center;
+}
+
+.single-releases-container .image:hover {
+    opacity: 0.3;
+}
+
+.single-releases-container:hover .middle {
+    opacity: 1;
+}
+
+
+
+/*---------------------------popular Artist-----------------------------*/
+
+#artist{
+	height: auto;
+	margin-left: 3rem;
+	width: 65%;
+	margin-top: 2rem;
+}
+
+#artist h2 {
+	color: white;
+	font-family: sans-serif;
+}
+
+#artist-container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.single-artist-container {
+	cursor: pointer;
+	height: 25vh;
+	width: 20vh;
+	color: white;
+	text-align: center;
+}
+
+.container{
+	position: relative;
+}
+
+.single-artist-container h3 {
+	font-family: sans-serif;
+	font-weight: 300;
+	margin-top: 7px;
+}
+
+.single-artist-container img{
+    border-radius: 50%;
+}
+
+.fas{
+	color: white;
+}
+
+/*hover actions*/
+.container .image:hover {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+
+/*---------------------------different songs category-------------------------------------*/
+
+#catagory{
+	width: 65%;
+	height: 20vh;
+	margin-top: 2rem;
+	margin-left: 3rem;
+	color: white;
+	background-color: rgb(24, 24, 114);
+} 
+
+.catagory-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.head-img{
+	height: 19vh;
+	width: 20vh;
+}
+
+.head-img img{
+	width: 100%;
+	height: 105%;
+}
+
+.single-catagory{
+	margin-top: 15px;
+	height: 15vh;
+	width: 16vh;
+	flex-wrap: wrap;
+}
+.catagory-img {
+	border-radius: 50%;
+}
+.single-catagory:hover{
+	transform: scale(0.9) translate(10px);
+	cursor: pointer;
+}
+
+
+
+
+/*--------------------latest English and Punjabi-----------------------------*/
+
+
+
+.latest-english-container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.single-english-container{
+	height: 13rem;
+	width: 10rem;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.english-container img{
+	width: 100%;
+	height: 160px;
+}
+
+.english-container{
+	position: relative;
+}
+
+.english-container img:hover {
+	cursor: pointer;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.english-container .image:hover {
+    opacity: 0.3;
+}
+
+.english-container:hover .middle {
+    opacity: 1;
+}
+
+
+/*---------pubjabi latest---------*/
+
+.latest-punjabi-songs{
+	width: 65%;
+	height: auto;
+	color: white;
+	display: flex;
+	margin-top: 3rem;
+	flex-direction: column;
+	margin-left: 3rem;
+	font-family: sans-serif;
+}
+
+.latest-punjabi-container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.single-punjabi-container{
+	height: 13rem;
+	width: 9rem;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.punjabi-container img{
+	width: 100%;
+	height: 160px;
+	border-radius: 8px;
+}
+
+.punjabi-container{
+	position: relative;
+}
+
+.punjabi-container img:hover {
+	cursor: pointer;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.punjabi-container .image:hover {
+    opacity: 0.3;
+}
+
+.punjabi-container:hover .middle {
+    opacity: 1;
+}
+
+
+/*----------------------------footer section---------------------------------*/
+
+footer {
+	margin-left: 0;
+	position: fixed;
+	bottom: 1px;
+	width: 100%;
+	height: 60px;
+	background-color: hsl(231deg 53% 10%);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	flex-wrap: nowrap;
+	padding: 0px 3%;
+	box-sizing: border-box;
+	z-index: 6;
+	color: white;
+	border-radius: 10px;
+}
+
+/* first part of the footer */
+.ongoing-song-des {
+	height: 90%;
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* image contaoner of played song */
+#song-image {
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height: 50px;
+}
+/* current song image */
+#song-image img {
+	width: 100%;
+	height: 100%;
+}
+
+/* heart and ban icon */
+.heart-ban {
+	height: 100%;
+	padding-top: 4%;
+}
+
+/* song decscription */
+.song-details {
+	margin-right: 1%;
+	margin-left: 1%;
+}
+/* song name */
+.song-details div:nth-child(1) {
+	font-size: 14px;
+}
+/* singer */
+.song-details div:nth-child(2) {
+	font-size: 12px;
+}
+
+
+/* 2. Second part of the footer*/
+.player {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+
+/* controls for player */
+.controls {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+}
+
+/* song-duration slider */
+#slider {
+	width: 100%;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+
+.time {
+	  margin: 0px 10px;
+}
+
+
+/* adjusting the slider for better visuals */
+.slider-container {
+  	width: 60%;
+}
+
+/* for audio and main center player */
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.5;
+}
+
+
+/* hover effect for the slider */
+.slider:hover {
+	opacity: 1;
+}
+
+
+/* third part of the footer */
+
+.useful {
+		width: 20%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+}
+
